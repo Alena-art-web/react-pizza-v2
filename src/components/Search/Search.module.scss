@@ -1,0 +1,43 @@
+.root {
+    position: relative;
+    input {
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 30px;
+        padding: 10px 30px;
+        font-size: 16px;
+        width: 300px;
+
+        &:focus {
+            border: 1px solid rgba(0, 0, 0, 0.5);
+        }
+    }
+    
+    .search {
+        svg {
+            width: 18px;
+            height: 18px;
+            position: absolute;
+            top: 12px;
+            left: 10px;
+            opacity: 0.5;
+            padding-right: 10px;
+        }
+    }
+
+    .close {
+        svg {
+            width: 18px;
+            height: 18px;
+            position: absolute;
+            top: 12px;
+            right: 15px;
+            opacity: 0.5;
+            cursor: pointer;
+        
+            &:hover {
+                opacity: 0.9;
+            }
+        }
+        
+    }
+}
